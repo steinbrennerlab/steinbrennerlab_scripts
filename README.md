@@ -5,3 +5,8 @@
 Takes CD-HIT output and outputs 2 text files: 
 1) each gene on a separate line followed by each gene's cluster
 2) a summary of how many genes from each "species" are in each cluster. The current script uses a simple shorthand to infer species -- it reads the first two letters of each gene name as species identifiers
+
+Try on the example file in the /examples subdirectory
+```
+bash cdhit_parser.sh -i sample_cdhit_output.clstr -o parsed_cdhit_data
+```
